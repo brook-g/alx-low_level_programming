@@ -10,7 +10,8 @@ int main(void)
 {
 	int n;
 	int x;
-	x=n%10;
+
+	x = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -28,5 +29,5 @@ int main(void)
 		printf("less than 6 and not 0\n");
 	}
 
-	return 0;
+	return (0);
 }
