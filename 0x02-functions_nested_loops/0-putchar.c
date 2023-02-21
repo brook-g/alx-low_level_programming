@@ -1,18 +1,20 @@
 #include "main.h"
-
 /**
- * main - Entry point
+ *main - Entry point
  *
- * Return: Always 0 (Success)
+ *Return: nothing, return void
  */
 int main(void)
 {
-	char ch[] = "_putchar";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	for (int i = 0; i < 8; i++)
-	{
-		putchar(ch[i]);
-	}
-	putchar('\n');
 	return (0);
 }
