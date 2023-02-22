@@ -2,5 +2,5 @@
 git add .
 echo Commit Message:
 read CMSG
-git commit -m '$CMSG'
+git commit -m $CMSG
 git push
