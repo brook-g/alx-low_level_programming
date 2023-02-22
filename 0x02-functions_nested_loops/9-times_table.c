@@ -7,7 +7,8 @@
  */
 void times_table(void)
 {
-	int i, product;
+	int i = 0; 
+	int product;
 
 	for (int i = 0; i <= 10 ; i++)
 	{
@@ -23,5 +24,4 @@ void times_table(void)
 		_putchar((product % 10) + '0');
 		_putchar('\n');
 	}
-	return (0);
 }
