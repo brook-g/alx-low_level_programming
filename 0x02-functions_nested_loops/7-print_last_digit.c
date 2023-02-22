@@ -11,9 +11,9 @@
  */
 int print_last_digit(int n)
 {
-	unsigned ld = n % 100;
+	unsigned ld = n % 10;
 
-	_putchar(ld);
+	_putchar(ld2);
 
 	return (ld);
 }
