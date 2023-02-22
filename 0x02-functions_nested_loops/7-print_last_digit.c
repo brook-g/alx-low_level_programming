@@ -9,9 +9,9 @@
  * Return: int last digit of a number.
  *
  */
-int print_last_digit(int n)
+int print_last_digit(unsigned n)
 {
-	int ld = n % 10;
+	int ld = n % 100;
 
 	_putchar(ld);
 
