@@ -9,11 +9,5 @@
  */
 int mul(int a, int b)
 {
-	if (int a >= '0' && int a <= '9')
-	{
-		if (int b >= '0' && int a <= '9')
-		{
-			return (a * b);
-		}
-	}
+	return (a * b);
 }
