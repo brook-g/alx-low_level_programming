@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _isdigit - checks for uppercase character
  * @c: the character to be checked
