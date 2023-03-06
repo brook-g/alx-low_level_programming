@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _memcpy(char *dest, char *src, unsigned int n): copies data
+ * _memcpy - copies data
  * from source src to destination dest.
  * @src: source data.
  * @dest: destination memory area.
