@@ -11,7 +11,7 @@ char *_strpbrk(char *s, char *accept)
 {
 	/* declare loop variables */
 	unsigned int i, j;
-	
+
 	/* iterate through string s */
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
